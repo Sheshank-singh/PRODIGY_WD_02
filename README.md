@@ -22,6 +22,6 @@ Experience a sleek and functional timer with the Stopwatch web application by Sh
 4. Reset the stopwatch to zero by clicking "Reset."<br />
 
 <h3>Contributing:</h3>
-Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests. Your input will help enhance the functionality and user experience of this stopwatch application. Join us in making time tracking even better! <br />
+Contributions are welcome! Feel free to open issues, suggest enhancements, or submit pull requests. Your input will help enhance the functionality and user experience of this stopwatch application. Join us in making time tracking even better! <br /><br />
 
 This stopwatch application is not only functional but also visually appealing, making time tracking an enjoyable experience. Whether you're timing workouts, projects, or events, this app has you covered. Try it out and enhance your time management capabilities!
