@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+    list-style: none;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./best-illustration-abstract-background-design-perfect-for-advertising-social-media-post-wallpaper-and-other-graphic-needs-free-vector.jpg');
+    flex-direction: column;
+    
+}
+
+
+.outer-container{
+    background: rgba(247, 158, 42, 0.952);
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 5px #f3dd79c7,
+              0 0 20px 7px #f8d436,
+              0 0 25px 20px #f5ba19;
+}
+
+.container{
+    position: relative;
+    width: 220px;
+    height: 80px;
+    padding: 10px;
+    background: wheat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #333;
+}
+
+.container .time{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: rgb(221, 163, 54);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    user-select: none;
+
+}
+
+.container .time span{
+    position: relative;
+    width: 40px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container .time span.dots{
+    width: 10px;
+}
+
+.container .time span.ms,
+.container .time span.millisecond{
+    color: #fff;
+}
+
+.container .buttons{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    background: rgb(221, 163, 54);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .buttons div{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background: #ffffff;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.container .buttons div:active,
+.container .buttons div.active{
+    background: #ffffff6c;
+}
+
+.container .buttons div .bx{
+    color: rgb(221, 163, 54);
+    font-weight: bold;
+}
+
+.save-box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-top:  10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #333;
+    padding: 10px;
+}
+
+.save-box .title{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(221, 163, 54);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.save-box .box{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background: rgb(221, 163, 54);
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+
+.save-box .box ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: max-content;
+    padding: 5px;
+}
+
+.save-box .box ul li{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    padding: 0 5px;
+    font-weight: 600;
+    margin: 2.5px;
+    animation: animate .3s linear;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.save-box .box ul li:hover{
+    background: #fff;
+    transform: scale(1.05);
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+.ms{
+    color:rgb(221, 163, 54);
+}
